@@ -9,7 +9,7 @@ Iya.addEventListener("click", function () {
     if (Iya.value == 1) {
         Text.classList.remove('text-animate');
         void Text.offsetWidth; 
-        Text.innerHTML = "Assalamualaikum, Hai ini saya Fatih Arridho perwakilan keluarga besar H.J Ahmad Mursalih";
+        Text.innerHTML = "Assalamualaikum, Hai ini saya Fatih Arridho.";
         Text.classList.add('text-animate');
     }else if (Iya.value == 2) {
         Text.classList.remove('text-animate');
